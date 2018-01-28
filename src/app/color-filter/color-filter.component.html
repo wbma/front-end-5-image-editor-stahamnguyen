@@ -1,0 +1,12 @@
+<br>
+Red:
+<input type="range" min="0" max="255" step="1" [(ngModel)]="red" (change)="this.imageService.applyFilters()">{{ red }}
+<br>
+Green:
+<input type="range" min="0" max="255" step="1" [(ngModel)]="green" (change)="this.imageService.applyFilters()">{{ green }}
+<br>
+Blue:
+<input type="range" min="0" max="255" step="1" [(ngModel)]="blue" (change)="this.imageService.applyFilters()">{{ blue }}
+<br>
+Strength:
+<input type="range" min="0" max="100" step="1" [(ngModel)]="strength" (change)="this.imageService.applyFilters()">{{ strength }}
